@@ -3,7 +3,17 @@ name = "rs-tar2sqlite"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the tar file to the sqlar."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-tar2sqlite"
+homepage = "https://github.com/takanoriyanagitani/rs-tar2sqlite"
+documentation = "https://docs.rs/rs-tar2sqlite/latest"
+keywords = ["tar", "sqlite", "wasi", "sqlar"]
+
 exclude = [
+    "rs-tar2sqlite.wasm",
+    "opt.wasm",
+    "sample.d/input.tar",
 ]
 
 [lints.rust]
